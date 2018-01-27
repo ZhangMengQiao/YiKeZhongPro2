@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<ImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_above="@+id/textView2"
+    android:layout_alignLeft="@+id/textView2"
+    android:layout_alignStart="@+id/textView2"
+    android:layout_marginBottom="14dp"
+    android:layout_marginLeft="13dp"
+    android:layout_marginStart="13dp"
+    android:background="@drawable/raw_1499947056"
+    android:id="@+id/imageView2" />
+
+<ImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignTop="@+id/imageView2"
+    android:layout_marginEnd="57dp"
+    android:layout_marginRight="57dp"
+    android:background="@drawable/raw_1499947157"
+    android:id="@+id/imageView3" />
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:textColor="#000"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginBottom="28dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginStart="40dp"
+    android:text="我的作品"
+    android:textSize="20sp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:layout_alignBaseline="@+id/textView2"
+    android:layout_alignBottom="@+id/textView2"
+    android:layout_alignLeft="@+id/imageView3"
+    android:layout_alignStart="@+id/imageView3"
+    android:text="设置"
+    android:textColor="#000"
+    android:textSize="20sp" />
+</RelativeLayout>

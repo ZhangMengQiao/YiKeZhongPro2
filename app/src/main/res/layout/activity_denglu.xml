@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/raw_1500359318"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.yikezhongpro.view.DengluActivity">
+    <ImageView
+        android:id="@+id/image_fan"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="27dp"
+        app:srcCompat="@drawable/raw_1500363027" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/image_fan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        app:roundedCornerRadius="8dp"
+        app:placeholderImage="@drawable/raw_1500977101" />
+
+    <Button
+        android:id="@+id/but_wei"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="146dp"
+        android:background="@drawable/yuanjiao_weixin"
+        android:text="微信登录"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/but_qq"
+        android:layout_width="200dp"
+        android:background="@drawable/yuanjiao_qq"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/but_wei"
+        android:layout_alignStart="@+id/but_wei"
+        android:layout_alignTop="@+id/but_wei"
+        android:layout_marginTop="55dp"
+        android:text="QQ登录" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/but_qq"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="其他登录方式" />
+</RelativeLayout>

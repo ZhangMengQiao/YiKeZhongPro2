@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/my_zitouxaing"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        app:placeholderImage="@drawable/raw_1500002478"
+        app:roundAsCircle="true" />
+
+    <TextView
+        android:id="@+id/my_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/my_zitouxaing"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_toEndOf="@+id/my_zitouxaing"
+        android:layout_toRightOf="@+id/my_zitouxaing"
+        android:text="阿斯顿马丁"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/my_text"
+        android:layout_alignStart="@+id/my_text"
+        android:layout_below="@+id/my_text"
+        android:text="吃货们快戳我"
+        android:textSize="15sp"
+        android:id="@+id/my_zigexing" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:layout_toEndOf="@+id/my_zigexing"
+        android:textSize="15sp"
+        android:id="@+id/my_zishijian"
+        android:layout_toRightOf="@+id/my_zigexing"
+        android:text="2017-05-05" />
+</RelativeLayout>

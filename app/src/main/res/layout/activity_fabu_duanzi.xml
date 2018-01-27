@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.yikezhongpro.view.FabuDuanziActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FF4297FF">
+
+        <TextView
+            android:id="@+id/fb_quxiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:text="取消"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+            android:text="发表文章"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+
+            android:id="@+id/fb_fabiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="19dp"
+            android:text="发表"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/et_neirong"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textColor="#353131"
+            android:textSize="15sp"
+            android:hint="请输入内容，禁止输入色情，暴力等违反国家法律的内容，违者将以封号处理！"/>
+    </RelativeLayout>
+</LinearLayout>
